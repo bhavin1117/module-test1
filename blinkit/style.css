@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#search_box{
+    border-radius: 12px;
+}
+
+#search_box>input{
+    width:40vw;
+    padding: 10px;
+    border:none;
+    background-color: transparent;
+}
+#banner{
+    display: flex;
+    justify-content: center;
+}
+#categories-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85vw;
+    margin: auto;
+    justify-content: space-between ;
+}
+.coupon-card{
+    width: 85vw;
+    white-space: nowrap;
+    margin: auto;
+    overflow: hidden;
+}
+.list{
+    text-wrap: nowrap;
+    overflow-x: scroll;
+}
